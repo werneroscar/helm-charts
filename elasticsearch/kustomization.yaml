@@ -9,7 +9,7 @@ helmCharts:
     # version: 8.5.1
     includeCRDs: true
     namespace: elasticsearch
-    valuesFile: ./charts/elasticsearch/values.yaml
+    valuesFile: values.yaml
 
 helmGlobals:
   chartHome: charts
