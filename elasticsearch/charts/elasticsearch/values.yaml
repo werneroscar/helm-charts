@@ -22,7 +22,7 @@ roles:
   - transform
 
 replicas: 5
-minimumMasterNodes: 2
+minimumMasterNodes: 5
 
 esMajorVersion: ""
 
