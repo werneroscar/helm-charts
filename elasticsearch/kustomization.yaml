@@ -5,7 +5,11 @@ kind: Kustomization
 helmCharts:
   - name: elasticsearch
     releaseName: elasticsearch
-    repo: https://helm.elastic.co
-    version: 8.5.1
+    # repo: https://helm.elastic.co
+    # version: 8.5.1
+    includeCRDs: true
     namespace: elasticsearch
-    valuesFile: values.yaml
+    valuesFile: ./charts/elasticsearch/values.yaml
+
+helmGlobals:
+  chartHome: charts
