@@ -13,3 +13,6 @@ helmCharts:
 
 helmGlobals:
   chartHome: charts
+
+resources:
+  - "./volume"
