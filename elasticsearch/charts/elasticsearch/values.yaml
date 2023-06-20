@@ -84,6 +84,7 @@ podAnnotations: {}
 
 # additionals labels
 labels: {}
+#   app: elasticsearch-master
 
 esJavaOpts: "" # example: "-Xmx1g -Xms1g"
 
